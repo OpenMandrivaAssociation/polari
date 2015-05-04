@@ -1,0 +1,13 @@
+diff -up ./src/Makefile.am.orig ./src/Makefile.am
+--- ./src/Makefile.am.orig	2014-09-23 21:40:19.225636466 +0300
++++ ./src/Makefile.am	2014-09-23 21:43:59.920999481 +0300
+@@ -3,7 +3,7 @@ CLEANFILES =
+ INTROSPECTION_GIRS =
+ 
+ girdir = $(pkgdatadir)/gir-1.0
+-typelibdir = $(pkglibdir)/girepository-1.0
++typelibdir = $(libdir)/girepository-1.0
+ 
+ include $(INTROSPECTION_MAKEFILE)
+ include Makefile-lib.am
+
