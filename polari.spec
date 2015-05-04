@@ -4,8 +4,8 @@
 %global __requires_exclude libpolari.*\\.so$|libtelepathy-glib\\.so\\.0\\(.*
 
 Name:		polari
-Version:	3.14.1
-Release:	%mkrel 2
+Version:	3.16.1
+Release:	1
 Summary:	Internet Relay Chat client for GNOME
 License:	GPLv2+ and LGPLv2+
 Group:		Graphical desktop/GNOME
@@ -34,7 +34,7 @@ Polari is an Internet Relay Chat client for the GNOME desktop.
 
 %build
 autoreconf -vfi
-%configure2_5x --disable-static
+%configure --disable-static
 %make
 
 %install
