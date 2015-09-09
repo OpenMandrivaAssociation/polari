@@ -2,10 +2,11 @@
 
 %global __provides_exclude libpolari.*\\.so$
 %global __requires_exclude libpolari.*\\.so$|libtelepathy-glib\\.so\\.0\\(.*
+%define __noautoreqfiles gjs-console
 
 Name:		polari
 Version:	3.16.1
-Release:	2
+Release:	3
 Summary:	Internet Relay Chat client for GNOME
 License:	GPLv2+ and LGPLv2+
 Group:		Graphical desktop/GNOME
