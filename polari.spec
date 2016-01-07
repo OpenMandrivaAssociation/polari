@@ -2,7 +2,7 @@
 
 %global __provides_exclude libpolari.*\\.so$
 %global __requires_exclude libpolari.*\\.so$|libtelepathy-glib\\.so\\.0\\(.*
-%define __noautoreqfiles gjs-console
+%define __noautoreqfiles org.gnome.Polari$
 
 Name:		polari
 Version:	3.18.1
