@@ -59,7 +59,7 @@ find %{buildroot} -name '*.la' -delete
 %doc COPYING AUTHORS NEWS
 %{_bindir}/%{name}
 %{_libdir}/%{name}/
-%{_libdir}/girepository-1.0/Polari-1.0.typelib
+#{_libdir}/girepository-1.0/Polari-1.0.typelib
 %{_datadir}/dbus-1/services/org.gnome.Polari.service
 %{_datadir}/applications/org.gnome.Polari.desktop
 %{_datadir}/glib-2.0/schemas/*.xml
