@@ -20,6 +20,7 @@ BuildRequires:	pkgconfig(gtk+-3.0) >= 3.9.12
 BuildRequires:	pkgconfig(telepathy-glib)
 BuildRequires:	gsettings-desktop-schemas
 BuildRequires:	desktop-file-utils
+BuildRequires:  gjs
 BuildRequires:	pkgconfig(gjs-1.0)
 BuildRequires:	appstream-util
 BuildRequires:	pkgconfig(appstream-glib)
