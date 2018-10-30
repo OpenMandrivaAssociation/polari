@@ -5,7 +5,7 @@
 %define __noautoreqfiles org.gnome.Polari$
 
 Name:		polari
-Version:	3.30.1
+Version:	3.30.2
 Release:	1
 Summary:	Internet Relay Chat client for GNOME
 License:	GPLv2+ and LGPLv2+
