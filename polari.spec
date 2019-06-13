@@ -5,14 +5,14 @@
 %define __noautoreqfiles org.gnome.Polari$
 
 Name:		polari
-Version:	3.32.1
+Version:	3.32.2
 Release:	1
 Summary:	Internet Relay Chat client for GNOME
 License:	GPLv2+ and LGPLv2+
 Group:		Graphical desktop/GNOME
 URL:		https://wiki.gnome.org/Apps/Polari
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
-#Patch0:		polari-3.14.0-fix-typelibdir.patch
+
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
@@ -29,6 +29,9 @@ BuildRequires:	gnome-common
 BuildRequires:	yelp-devel
 BuildRequires:	itstool
 BuildRequires:	meson
+BuildRequires:	typelib(Gspell)
+
+Requires:	typelib(Gspell)
 
 Requires:	gsettings-desktop-schemas
 Requires:	telepathy-logger
