@@ -5,7 +5,7 @@
 %define __noautoreqfiles org.gnome.Polari$
 
 Name:		polari
-Version:	41.0
+Version:	42.0
 Release:	1
 Summary:	Internet Relay Chat client for GNOME
 License:	GPLv2+ and LGPLv2+
@@ -25,6 +25,7 @@ BuildRequires:	pkgconfig(gjs-1.0)
 BuildRequires:	appstream-util
 BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:  pkgconfig(telepathy-logger-0.2)
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:	gnome-common
 BuildRequires:	yelp-devel
 BuildRequires:	itstool
