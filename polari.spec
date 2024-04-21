@@ -26,6 +26,7 @@ BuildRequires:	appstream-util
 BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:  pkgconfig(telepathy-logger-0.2)
 BuildRequires:  pkgconfig(libadwaita-1)
+BuildRequires:  pkgconfig(tracker-sparql-3.0)
 BuildRequires:	gnome-common
 BuildRequires:	yelp-devel
 BuildRequires:	itstool
