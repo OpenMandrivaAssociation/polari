@@ -70,7 +70,7 @@ find %{buildroot} -name '*.la' -delete
 %{_datadir}/glib-2.0/schemas/*.xml
 %{_datadir}/%{name}/
 %{_iconsdir}/*/*/*/*
-%{_datadir}/metainfo/org.gnome.Polari.appdata.xml
+#{_datadir}/metainfo/org.gnome.Polari.appdata.xml
 %{_datadir}/dbus-1/services/org.freedesktop.Telepathy.Client.Polari.service
 %{_datadir}/telepathy/clients/Polari.client
 
