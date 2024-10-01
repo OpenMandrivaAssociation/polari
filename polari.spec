@@ -6,7 +6,7 @@
 
 Name:		polari
 Version:	46.0
-Release:	3
+Release:	4
 Summary:	Internet Relay Chat client for GNOME
 License:	GPLv2+ and LGPLv2+
 Group:		Graphical desktop/GNOME
@@ -26,7 +26,7 @@ BuildRequires:	appstream-util
 BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:  pkgconfig(telepathy-logger-0.2)
 BuildRequires:  pkgconfig(libadwaita-1)
-BuildRequires:  pkgconfig(tracker-sparql-3.0)
+BuildRequires:  pkgconfig(tinysparql-3.0)
 BuildRequires:	gnome-common
 BuildRequires:	yelp-devel
 BuildRequires:	itstool
