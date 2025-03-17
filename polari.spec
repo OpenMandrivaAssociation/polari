@@ -6,7 +6,7 @@
 
 Name:		polari
 Version:	46.0
-Release:	4
+Release:	5
 Summary:	Internet Relay Chat client for GNOME
 License:	GPLv2+ and LGPLv2+
 Group:		Graphical desktop/GNOME
