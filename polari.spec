@@ -61,7 +61,7 @@ find %{buildroot} -name '*.la' -delete
 
 
 %files -f %{name}.lang
-%doc COPYING AUTHORS NEWS
+%doc COPYING NEWS
 %{_bindir}/%{name}
 %{_libdir}/%{name}/
 #{_libdir}/girepository-1.0/Polari-1.0.typelib
