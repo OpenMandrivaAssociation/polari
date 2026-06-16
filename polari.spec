@@ -15,6 +15,7 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(appstream-glib)
+BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(girepository-2.0)
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(telepathy-glib)
