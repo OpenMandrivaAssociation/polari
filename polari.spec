@@ -5,8 +5,8 @@
 %define __noautoreqfiles org.gnome.Polari$
 
 Name:		polari
-Version:	49.0
-Release:	2
+Version:	50.0
+Release:	1
 Summary:	Internet Relay Chat client for GNOME
 License:	GPLv2+ and LGPLv2+
 Group:		Graphical desktop/GNOME
@@ -15,8 +15,8 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(appstream-glib)
-BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.9.12
+BuildRequires:	pkgconfig(girepository-2.0)
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(telepathy-glib)
 BuildRequires:	gsettings-desktop-schemas
 BuildRequires:	desktop-file-utils
@@ -45,8 +45,7 @@ Requires:	telepathy-idle
 Polari is an Internet Relay Chat client for the GNOME desktop.
 
 %prep
-%setup -q
-%autopatch -p1
+%autosetup -p1
 
 %build
 %meson
